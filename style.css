@@ -15,7 +15,7 @@ a{
     color: orangered;
     text-decoration: none;
     font-family: 'Dokdo', cursive;
-    font-size: 15pt;
+    font-size: 23pt;
 
 
 }
@@ -47,10 +47,34 @@ section div{
     align-items: center;
     background-color:rgba(255, 255, 0, 0.568);
     height: 170px;
+    border-radius: 30pt;
     
+}
+section div input:focus{
+    background-color: rgba(212, 208, 208, 0.507);
+    border: 1px solid rosybrown;
+}
+
+input::placeholder{ 
+    color: brown;
+    font-size: 8pt;
+    text-align: center;
+
 }
 
 div input:nth-child(4){
     margin-top: 20px;
     width: 70%;
+    background-color: aqua;
+    border: none;
+    border-radius: 50pt;
+    box-shadow: 1px px 9px gray;
 }
+div input{
+    margin-bottom: 5px;
+    width: 95%;
+   
+
+}
+
+
